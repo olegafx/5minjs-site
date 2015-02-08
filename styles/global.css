@@ -1,0 +1,27 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'proxima_nova_blblack';
+    src: url('/fonts/mark_simonson_-_proxima_nova_black-webfont.eot');
+    src: url('/fonts/mark_simonson_-_proxima_nova_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/mark_simonson_-_proxima_nova_black-webfont.woff') format('woff'),
+         url('/fonts/mark_simonson_-_proxima_nova_black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('/fonts/mark_simonson_-_proxima_nova_bold-webfont.eot');
+    src: url('/fonts/mark_simonson_-_proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/mark_simonson_-_proxima_nova_bold-webfont.woff') format('woff'),
+         url('/fonts/mark_simonson_-_proxima_nova_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,64 @@
+html, body {
+	height:100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+
+	background-color: #f6d964;
+	color: #2d2d2b;
+
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.contacts {
+	padding: 30px 30px 15px 30px;
+
+	text-align: center;
+}
+
+.contacts-link {
+	margin: 0 15px;
+
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'proxima_nova_rgbold';
+
+	text-decoration: none;
+	color: #2D2C2B;
+}
+
+.contacts-link:hover {
+	border-bottom: 3px solid currentColor;
+}
+
+.info {
+	width: 100%;
+
+	text-align: center;
+}
+
+.info-logo {
+	margin: 20px 0;
+
+	width: 300px;
+	height: 300px;
+}
+
+.info-title {
+	margin: 0;
+
+	font-size: 58px;
+	font-weight: 400;
+	font-family: 'proxima_nova_blblack';
+	letter-spacing: 1px;
+}
+
+.podcast-audio {
+	width: 100%;
+	height: 20%;
+
+    position: absolute;
+	bottom: 0;
+}
