@@ -58,6 +58,7 @@ html, body {
 .podcast-audio {
 	width: 100%;
 	height: 20%;
+	min-height: 100px;
 
     position: absolute;
 	bottom: 0;
